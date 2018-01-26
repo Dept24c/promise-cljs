@@ -1,0 +1,36 @@
+# .gitignore
+
+# Project specific
+/*.diff
+/*.log
+/resources/public/js/compiled/*
+
+# Clojure specific
+/target
+/classes
+pom.xml
+pom.xml.asc
+/.lein-*
+/.nrepl-*
+
+# Java
+/checkouts
+*.jar
+*.class
+
+# IDE's
+/.idea
+
+# Editor artifacts
+*~
+
+# Mercurial (?)
+.hgignore
+.hg/
+
+# wat?
+*.iml
+
+# silly Mac filesystem
+*.DS_Store*
+*._*
